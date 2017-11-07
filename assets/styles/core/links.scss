@@ -1,0 +1,71 @@
+.link {
+    color: $color-blue;
+    text-decoration: none;
+    border-bottom: solid 1px transparent;
+    transition: color .3s ease, border-color .3s ease;
+
+    &:hover, &:active {
+        color: $color-red;
+        border-color: transparentize($color-red, 0.8);
+    }
+
+    &--light {
+        color: $color-white;
+        border-color: transparentize($color-white, 0.8);
+    }
+
+    &--hse {
+        &:hover, &:active {
+            color: $color-hse;
+            border-color: transparentize($color-hse, 0.8);
+        }
+    }
+
+    &--yandex {
+        &:hover, &:active {
+            color: $color-yandex;
+            border-color: transparentize($color-yandex, 0.8);
+        }
+    }
+
+    &--rubius {
+        &:hover, &:active {
+            color: $color-rubius;
+            border-color: transparentize($color-rubius, 0.8);
+        }
+    }
+
+    &--telegram {
+        &:hover, &:active {
+            color: $color-telegram;
+            border-color: transparentize($color-telegram, 0.8);
+        }
+    }
+
+    &--github {
+        &:hover, &:active {
+            color: $color-github;
+            border-color: transparentize($color-github, 0.8);
+        }
+    }
+
+    &--eldorado {
+        &:hover, &:active {
+            color: $color-eldorado;
+            border-color: transparentize($color-eldorado, 0.8);
+        }
+    }
+
+    &--tpu {
+        &:hover, &:active {
+            color: $color-tpu;
+            border-color: transparentize($color-tpu, 0.8);
+        }
+    }
+
+    &--without-underline,
+    &--without-underline:hover,
+    &--without-underline:active {
+        border-color: transparent;
+    }
+}
