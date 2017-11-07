@@ -1,0 +1,32 @@
+.section {
+    display: block;
+    padding: ($base-indent * 2) 0;
+
+    &--header {
+        background-color: $color-black;
+        color: $color-white;
+        padding: ($base-indent * 3) 0;
+        @include respond-to(mobile) { padding: $base-indent 0; }
+    }
+
+    &--projects {
+        background-color: $color-white;
+        color: $color-black;
+    }
+
+    &--experience {
+        background-color: $color-black;
+        color: $color-white;
+    }
+
+    &--footer {
+        background-color: $color-black;
+        color: $color-white;
+    }
+
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}

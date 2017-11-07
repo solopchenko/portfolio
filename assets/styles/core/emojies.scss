@@ -1,0 +1,29 @@
+.emoji {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: 100%;
+    background-color: transparent;
+
+    &--rocket {
+        background-image: url('../images/emojies/rocket.png');
+    }
+    &--robot {
+        background-image: url('../images/emojies/robot.png');
+    }
+    &--student {
+        background-image: url('../images/emojies/student.png');
+    }
+    &--books {
+        background-image: url('../images/emojies/books.png');
+    }
+    &--phone {
+        background-image: url('../images/emojies/phone.png');
+    }
+    &--apple-man {
+        background-image: url('../images/emojies/apple-man.png');
+    }
+    &--honor {
+        background-image: url('../images/emojies/honor.png');
+    }
+}

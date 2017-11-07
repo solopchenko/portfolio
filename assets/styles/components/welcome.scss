@@ -1,0 +1,38 @@
+.welcome {
+    &__photo {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        @include respond-to(mobile) {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+        };
+        background-image: url('../images/avatar.jpg');
+        background-color: transparent;
+        margin-right: 2%;
+        background-size: 100%;
+        float: left;
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 3.2rem;
+        line-height: 40px;
+        @include respond-to(mobile) { font-size: 1.8rem; line-height: 30px; };
+    }
+    &__info {
+        font-size: 2.2rem;
+        color: rgba(255, 255,255, 0.6);
+        @include respond-to(mobile) { font-size: 1.8rem; line-height: 30px; };
+    }
+    &__text {
+        font-size: 3.2rem;
+        margin-top: $base-indent * 2;
+        @include respond-to(mobile) { font-size: 2.6rem; };
+    }
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}

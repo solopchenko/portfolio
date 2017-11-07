@@ -1,3 +1,3 @@
 # Домашняя страница
 
-Адрес страницы: https://solopchenko.net/new
+Адрес страницы: https://solopchenko.net/new/
